@@ -1,0 +1,366 @@
+Código página Austral 1929:(HTML)
+<!DOCTYPE html> 
+<html lang="en">    
+<head>    
+    <meta charset="UTF-8">      
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cumbre Austral 1929 Spa.</title>    
+    <style>
+        #Somos {
+            background-color: #641111;
+            padding: 20px;
+        }
+
+        #Somos h2 {
+            color: darkred;
+            font-family: Arial;
+            text-align: center;
+        }
+
+        #Somos p {
+            color: white;
+            font-family: Arial;
+            text-align: justify;
+            line-height: 1.5;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+        #login, #registro {
+            width: 100%;
+            max-width: 400px;
+            margin: auto;
+            padding: 15PX;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        #login input {
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            background-color: darkred;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        #Semana {
+            position: relative;
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid darkred;
+        }
+        #Semana img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            border: 2px solid solid black;
+            box-sizing: border-box;
+        }
+    </style>
+    <style>
+        @import url("promociones.css");
+    </style>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" type="text/css" href="tablas.css">
+    <link rel="stylesheet" href="secciones.css">
+    <link rel="stylesheet" href="Mobile.css">
+</head>    
+<body> 
+    <header>
+        <h1>Cumbre Austral 1929 Spa</h1>
+    </header>
+    <main>
+        <section id="inicio">
+    <h2>Bienvenidos a Cumbre Austral 1929 Spa.</h2>
+    <h2>¡Descubre la auténtica gastronomía chilena en cada plato!</h2>
+     <h2> <a href="#Menu">Ver menú / Nuestra historia</a></h2> 
+<img src="red.png"class="separador-rg">
+        </section>
+        <img src="chefs.png"class="banner-principal">
+        <img src="red.png"class="separador-rg">
+        <section id="Somos">
+            <h2>Quiénes Somos</h2>
+            <p>Somos Cumbre Austral 1929, un restaurante dedicado a la gastronomía chilena tradicional, 
+                donde combinamos recetas típicas con técnicas culinarias contemporáneas. Nuestro enfoque se basa en recatar 
+                la identidad cultural de la cocina chilena, manteniendo vivas preparaciones que han sido
+                transmitidas de generación en generación desde 1929.
+            </p>
+            <p>
+                Nuestro equipo de trabajo está conformado por profesionales comprometidos con la calidad y el buen servicio, 
+                quienes buscan innovar sin tener que perder la escencia de los sabores tradicionales. Nos preocupamos por usar siempre 
+                ingredientes frescos y locales, garantizado así una experiencia auténtica en cada plato.
+            </p>
+            <p>
+                Nuestra misión es rescatar las recetas históricas de nuestro país y darles un toque extra con nuestras técnicas culinarias, 
+                ofreciendole a nuestros clientes una experiencia gastronómica única. Buscamos satisfacer tanto a clientes nacionales como internacionales,
+                entregando un servicio de excelencia y sabores que puedan representar fielmente la cultura chilena.
+            </p>
+            <h2><a href="https://maps.app.goo.gl/vhjCKFqxjQ5hp9Ny8" target="_blank">📍Ubicación<strong>Av. Libertador Bernardo O'Higgins 123</strong></a></h2>
+            <img src="ubi.png">
+            <img src="gemini.png">
+            <br>
+         <a href ="#inicio">Volver al inicio</a>
+
+        </section>
+        <section id ="Menu">
+            <nav class="menu-flex">
+                <h2>------=Menú=------</h2>
+                <ul class="nav-flex">
+                    <li><a href="#inicio">Volver al inicio</a></li>
+                    <li><a href ="#Somos">Quiénes Somos</a></li>
+                    <li><a href ="#Platos">Platos</a></li>
+                    <li><a href ="#Bebidas">Bebidas</a></li>
+                    <li><a href ="#Postres">Postres</a></li>
+                    <li><a href ="#Especialidades">Especialidades</a></li>
+                    <li><a href ="#Promociones">Promociones</a></li>
+                    <li><a href ="#Semana">Plato de la semana</a></li>
+                    <li><a href ="#Login">Inicia sesión</a></li>
+                    <li><a href ="#registro">Regístrate</a></li>
+                    <li><a href ="#Videos">Videos relacionados a la preparación de los platos</a></li>
+                </ul>
+            </nav>
+            <img src="carta.png"class="separador">
+            <img src="red.png"class="separador-rg">
+        </section>
+<!-- Sección de platos -->
+        <section id="Platos">
+            <h2>Platos</h2>
+                <table border="0">
+                    <tr>
+                        <th>Plato</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                    </tr>
+                    <tr>
+                        <td>Empanadas de Pino</td>
+                        <td>Deliciosas empanadas rellenas de carne, cebolla, huevo duro y aceitunas.</td>
+                        <td>$3.000</td>
+                    </tr>
+                    <tr>    
+                        <td>Pastel de Choclo</td>
+                        <td>Clásico pastel hecho con maíz molido, carne, pollo, cebolla y huevo duro.</td>
+                        <td>$5.000</td>
+                    </tr>
+                    <tr>
+                        <td>Cazuela de vacuno</td>
+                        <td>Deliciosa cazuela de carne de vacuno, acompañada de arroz y verduras.</td>
+                        <td>$10.000</td>
+                    </tr>
+                </table>
+                <img src="empanada.jpg">
+                <div class="platos">
+                    <img src="pastel.jpg"">
+                    <img src="cazuela.jpg">
+                </div>
+            <a href ="#Menu">Volver al Menú</a>
+            </section>
+            <hr>
+                <img src="platos.png"class="separador">
+<!-- Sección de bebidas -->
+        <section id="Bebidas">
+            <h2>Bebidas</h2>
+            <table border="0">
+                <tr>
+                    <th>Bebidas</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                </tr>
+                <tr>
+                    <td>Bebida en lata</td>
+                    <td>Coca-Cola, Sprite, Fanta.</td>
+                    <td>$1.500</td>
+                </tr>
+                <tr>  
+                    <td>Mote con huesillo</td>
+                    <td>Clásica bebida chilena hecha con maíz, huesillo y azucar.</td>
+                    <td>$2.500</td>
+                </tr>
+                <tr>
+                    <td>Terremoto</td>
+                    <td>Bebida refrescante con pipeño, helado de piña y granadina.</td>
+                    <td>$3.000</td>
+                </tr>
+                <tr>
+                    <td>Vino</td>
+                    <td>Selección de vinos tintos chilenos de calidad.</td>
+                    <td>$6.000</td>
+                </tr>
+            </table>
+            <img src="lata.png"class="lata">
+            <div class="bebidas">
+                <img src="mote.jpg">
+                <img src="terremoto.jpg">
+                <img src="vino.png">
+            </div>
+            <a href ="#Menu">Volver al Menú</a>
+            <hr>
+            <img src="bebidas.png"class="separador">
+        </section>
+<!-- Sección de postres --> 
+        <section id="Postres">
+            <h2>Postres</h2>
+            <table border="0">
+                <tr>
+                    <th>Postres</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                </tr>
+                <tr>
+                    <td>Leche Asada</td>
+                    <td>Postre tradicional hecho con leche, azúcar, huevos y vainilla.</td>
+                    <td>$2.000</td>
+                </tr>
+                <tr>
+                    <td>Alfajores</td>
+                    <td>Deliciosos alfajores rellenos de manjar y cubiertos de azúcar impalpable.</td>
+                    <td>$1.500</td>
+                </tr>
+                <tr>
+                    <td>Helados artesanales</td>
+                    <td>Helados de sabores variados acompañados de toppings como manjar, frutas y nueces.</td>
+                    <td>$3.000</td>
+                </tr>
+            </table>
+            <div class="postres">
+                  <img src="leche.jpeg">
+                  <img src="alfajor.jpg">
+                  <img src="helado.jpg">
+            </div>
+            <a href ="#Menu">Volver al Menú</a>
+            <hr>
+            <img src="postres.png"class="separador">
+        </section>
+<!-- Sección de especialidades -->
+        <section id="Especialidades">
+            <h2>Especialidades de la casa</h2>
+                <dl>
+                    <dt>Chorrillana:</dt>
+                    <dd>Plato grande de papas fritas con carne, cebolla y huevo.</dd>
+                    <dt>Curanto:</dt>
+                    <dd>Plato tradicional del sur de Chile, preparado con mariscos, carne y verduras, cocido en un hoyo con piedras calientes.</dd>
+                    <dt>Asado de cordero:</dt>
+                    <dd>Plato tradicional chileno, preparado con cordero asado y acompañado de papas y ensalada.</dd>
+                </dl>
+                <div class="especialidades">
+                    <img src="chorrillana.jpg">
+                    <img src="curanto.jpg">
+                    <img src="cordero.jpg">
+                </div>
+                <a href ="#Menu">Volver al Menú</a>
+                <img src="especialidades.png"class="separador">
+        </section>
+<!-- Sección de promociones -->
+        <section id="Promociones">
+            <h2>Promociones especiales</h2>
+                <ul>
+                <li>Descuento del 10% en platos principales los lunes usando tu tarjeta masterplop.</li>
+                <li>2x1 en bebidas los miércoles (solo aplica por compras superiores a $10.000).</li>
+            <li>Postre gratis con la compra de un plato principal los viernes y domingos.</li>
+            </ul>
+            <a href ="#Menu">Volver al Menú</a>
+            <img src="promociones.png"class="separador">
+        </section>
+    <!-- Sección de plato de la semana -->
+        <section id="Semana">
+            <h2>Plato de la semana</h2>
+                <p>
+                    El plato especial de esta semana son los porotos granados, un plato tradicional 
+                    chileno hecho con porotos frescos, zapallo (calabaza), choclo (maíz) 
+                    y hierbas. Es un plato exquisito lleno de sabor y perfecto para 
+                    disfrutar en cualquier época del año.
+                </p>
+                    <h3>para leer sobre los porotos granados lo invitamos a seguir el siguiente enlace:</h3>
+                    <a href="https://es.wikipedia.org/wiki/Porotos_granados" target="_blank">Conoce más sobre los porotos granados</a>
+                    <hr>
+                    <div class="galeria-semana">
+                        <img src="porotos.jpg">
+                        <img src="porotos2.jpeg">
+                    </div>
+                    <h3>¡Conozca su preparación con este audio!</h3>
+                    <audio controls>
+                        <source src="Porotos Granados con Mazamorra.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                    <h3>¡Mira este video para conocer más sobre los porotos granados!</h3>
+                    <video class="video-Mobile" controls>
+                        <source src="porotosvideo.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+            </section>
+                <a href ="#Menu">Volver al Menú</a>
+                <br><br>
+<!-- formulario de acceso -->
+            <section id="Login">
+                <img src="bienvenidos.png"class="separador">
+                <h2>Acceso de usuarios</h2>
+                    <form action="#" method="post">
+                        <label for="usuario">Usuario:</label><br>
+                        <input type="text" id="usuario" name="usuario" required><br><br>
+                        <label for="contrasena">Contraseña:</label><br>
+                        <input type="password" id="contrasena" name="contrasena" required><br><br>
+                        <input type="submit" value="Enviar">
+                    </form>
+                    <a href="#Menu">Volver al Menú</a>
+                    <hr>
+            </section>
+<!--sección de registro-->
+            <section id="registro">
+                    <h2>Registro de usuarios</h2>
+                    <form action="#" method="post">
+                           <label>Nombre y Apellido:</label><br>
+                            <input type="text" name="nombre" required><br><br>
+                            <label>Tipo de documentación:</label><br>
+                        <Select name="tipo_documento">
+                            <option>RUT</option>
+                        <option>cedula de identidad</option>
+                        <option>Pasaporte</option>
+                        <option>DNI</option>
+                        </Select><br><br>
+                        <label>Número de documento:</label><br>
+                        <input type="text" name="numero_documento" required><br><br>
+                        <label>Fecha de nacimiento:</label><br>
+                        <input type="date" name="fecha_nacimiento" required><br><br>
+                        <label>Sexo:</label><br>
+                        <input type="radio" name="sexo" value="masculino" required> Masculino
+                        <input type="radio" name="sexo" value="femenino" required> Femenino<br><br>
+                        <label>Correo electrónico:</label><br>
+                        <input type="email" name="correo" required><br><br>
+                        <label>Teléfono móvil:</label><br>
+                        <input type="tel" name="telefono" required><br><br>
+                        <label>Comentarios / Sugerencias:</label><br>
+                        <textarea name="comentarios"></textarea><br><br>
+                        <input type="submit" value="Registrarse">
+    
+                    </form>
+                    <a href="#Menu">Volver al Menú</a>
+                    <hr>
+            </section>
+            <img src ="gris.jpg" class="separador-rg">
+            <section id="Videos">
+                <h2>Videos relacionados</h2>
+                <p>Aquí encontraras videos relacionados con la preparación de platos típicos chilenos:</p>
+                <p>En esta ocasión le mostraremos cómo preparar humitas:</p>
+                <iframe class="youtube-video" 
+                    src="https://www.youtube.com/embed/W-4eFnrFa8M?si=A8ByJkn53DljusRp" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
+            </section>
+            <br>
+            <a href ="#Menu">Volver al Menú</a>
+    </main>
+    <footer>
+        <p>&copy; 2026 Cumbre Austral 1929 Spa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
